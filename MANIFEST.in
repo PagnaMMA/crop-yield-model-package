@@ -1,5 +1,6 @@
 include README.md
 include requirements.txt
-recursive-include src/crop_model_Linear_Regression *.pkl
-recursive-include src/crop_model_Linear_Regression *.joblib
-recursive-include src/crop_model_Linear_Regression *.h5
+include LICENSE
+recursive-include src/cropyield_model *.pkl
+recursive-include src/cropyield_model *.joblib
+recursive-include src/cropyield_model *.h5
